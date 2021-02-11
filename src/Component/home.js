@@ -10,7 +10,7 @@ const Home = (props) => {
   const [Types, SetTypes] = useState(null);
   const [word, setWord] = useState([]);
   const [Refresh, SetRefresh] = useState(false);
-  const [TimerSeconds, SetTimerSeconds] = useState(30);
+  const [TimerSeconds, SetTimerSeconds] = useState(100);
 
   let count = 8;
   const RefreshHandler = () => {
@@ -21,7 +21,7 @@ const Home = (props) => {
 
   useEffect(() => {
     let Type = random_no(TypeArray.length);
-    SetTimerSeconds(30);
+    SetTimerSeconds(100);
     let WordPositon = null;
     let temp = null;
     console.log(Type);

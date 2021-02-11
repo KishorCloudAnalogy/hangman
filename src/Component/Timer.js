@@ -37,32 +37,6 @@ const Timer = (props) => {
       clearInterval(myInterval);
     };
   });
-  // useEffect(() => {
-  //   console.log(props.Refresh);
-  //   // if (props.Refresh) {
-  //
-  //   clearInterval(myInterval);
-  //   setSeconds(30);
-  //   myInterval = setInterval(() => {
-  //     if (seconds > 0) {
-  //       setSeconds(seconds - 1);
-  //       // console.log(props.Count)
-  //     }
-  //     if (seconds === 0) {
-  //       if (minutes === 0) {
-  //         clearInterval(myInterval);
-  //       } else {
-  //         setMinutes(minutes - 1);
-  //         setSeconds(59);
-  //       }
-  //     }
-  //   }, 1000);
-  //
-  //   return () => {
-  //     clearInterval(myInterval);
-  //   };
-  //   // }
-  // }, [props.Refresh]);
 
   return (
     <div id="Timer">
