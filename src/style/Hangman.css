@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  background-color: #eee;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 40px;
+  margin: 10px;
+  color: white;
+  background-color: #7593f5;
+}
+.btn :hover {
+  background-color: blanchedalmond;
+  color: red;
+}
